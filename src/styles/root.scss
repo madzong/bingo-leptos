@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background: black;
+    background: radial-gradient(
+        circle at top left,
+        rgb(10, 10, 10) 0%,
+        rgb(5, 5, 5) 40%,
+        rgb(0, 0, 0) 60%
+    );
+    background-repeat: no-repeat;
+    color: white;
+
+    font-family:
+        system-ui,
+        -apple-system,
+        BlinkMacSystemFont,
+        "Segoe UI",
+        Roboto,
+        Oxygen,
+        Ubuntu,
+        Cantarell,
+        "Open Sans",
+        "Helvetica Neue",
+        sans-serif;
+}
