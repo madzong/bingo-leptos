@@ -18,8 +18,8 @@ pub fn Root() -> impl IntoView {
             <Header />
             <main>
                 <Routes fallback=|| "Route not found.">
-                    <Route path=path!("/") view=Premade />
-                    <Route path=path!("/custom") view=Custom />
+                    <Route path=path!("/bingo-leptos/") view=Premade />
+                    <Route path=path!("/bingo-leptos/custom") view=Custom />
                 </Routes>
             </main>
         </Router>
